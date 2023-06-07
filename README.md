@@ -15,15 +15,16 @@ Haverá uma lista de filmes e as opiniões e avaliações de quem assistiu. Usu�
 **ADMIN**: Um ambiente admin web será usado para filtrar comentários ofensivos e maliciosos.
 
 ## Requisitos funcionais
-- Login;
-- Cadastro;
-- Adicionar um filme no seu catálogo;
-- Marcar um filme como assistido;
-- Avaliar um filme assistido;
-- Visualizar sinópse, gênero e personagens;
-- Visualizar comentários de outros usuários;
+- Login com email e senha;
+- Cadastro com email, senha, nome obrigatórios e avatar opicional (caso não tenha, será usado um placeholder);
+- Adicionar um filme no seu catálogo, buscado na API do IMDB;
+- Marcar um filme como assistido com um booleano;
+- Avaliar um filme assistido com nota e comentário opicional;
+- Visualizar dados de um filme;
+- Visualizar comentários de outros usuários em um filme;
 
 ## Tecnologia empregada
-- API;
-- Ambiente Admin Web;
+- API em Ruby on Rails;
+- Ambiente Admin Web integrado a API;
+- API externa de filmes do IMDB (https://developer.imdb.com/documentation/) para extrair a lista de filmes;
 - Aplicativo desenvolvido em Kotlin/Flutter;
