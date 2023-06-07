@@ -12,6 +12,7 @@ Haverá uma lista de filmes e as opiniões e avaliações de quem assistiu. Usu�
 
 ## Papéis
 **USUÁRIO**: O usuário padrão do sistema.
+
 **ADMIN**: Um ambiente admin web será usado para filtrar comentários ofensivos e maliciosos.
 
 ## Requisitos funcionais
